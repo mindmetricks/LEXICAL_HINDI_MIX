@@ -1,0 +1,481 @@
+﻿WORD,VALIDITY,TYPE,BLOCK
+कलह ,word,plain,B
+आकलन ,word,plain,B
+दमकल ,word,plain,B
+इसपर ,word,plain,B
+उतर ,word,plain,B
+उतरकर ,word,plain,B
+अहम ,word,plain,B
+वजन ,word,plain,B
+नकल ,word,plain,B
+झड़प ,word,plain,B
+सघन ,word,plain,B
+सबक ,word,plain,B
+आमरण ,word,plain,B
+जहर ,word,plain,B
+बनकर ,word,plain,B
+नगर ,word,plain,B
+नमन ,word,plain,B
+बदतर ,word,plain,B
+उपज ,word,plain,B
+उठकर ,word,plain,B
+शपथ ,word,plain,B
+हवन ,word,plain,B
+भरकर ,word,plain,B
+अपहरण ,word,plain,B
+चयन ,word,plain,B
+गहन ,word,plain,B
+जमकर ,word,plain,B
+जगत ,word,plain,B
+बगल ,word,plain,B
+तरस ,word,plain,B
+भगत ,word,plain,B
+अफसर ,word,plain,B
+उलझ ,word,plain,B
+श्रम ,word,plain,B
+आदत ,word,plain,B
+कमर ,word,plain,B
+अवसर ,word,plain,B
+दलदल ,word,plain,B
+कलम ,word,plain,B
+चरण ,word,plain,B
+अखवर,non_word,plain,B
+अटवर,non_word,plain,B
+अनशनर,non_word,plain,B
+अपगत,non_word,plain,B
+अपव,non_word,plain,B
+अमरल,non_word,plain,B
+अवगतन,non_word,plain,B
+अशल,non_word,plain,B
+आघमन,non_word,plain,B
+आडर,non_word,plain,B
+आदस,non_word,plain,B
+आपसव,non_word,plain,B
+आरकण,non_word,plain,B
+आरक्ष,non_word,plain,B
+इधम,non_word,plain,B
+उगर,non_word,plain,B
+उठखर,non_word,plain,B
+उठर,non_word,plain,B
+उतरक,non_word,plain,B
+उथर,non_word,plain,B
+उनड़,non_word,plain,B
+उपक,non_word,plain,B
+उपच,non_word,plain,B
+उपहल,non_word,plain,B
+उमठ,non_word,plain,B
+उमश,non_word,plain,B
+एकबर,non_word,plain,B
+कड़म,non_word,plain,B
+कदरल,non_word,plain,B
+कमम,non_word,plain,B
+कसण,non_word,plain,B
+कसरन,non_word,plain,B
+खबरल,non_word,plain,B
+खबल,non_word,plain,B
+गगनल,non_word,plain,B
+गहण,non_word,plain,B
+घटन,non_word,plain,B
+घलक,non_word,plain,B
+चमकल,non_word,plain,B
+चमर,non_word,plain,B
+बारह ,word,matra,C
+सलाहकार ,word,matra,C
+प्रदान ,word,matra,C
+प्रतिदिन ,word,matra,C
+माफिया ,word,matra,C
+नागरिक ,word,matra,C
+तैयार ,word,matra,C
+चादर ,word,matra,C
+समर्थक ,word,matra,C
+गुलशन ,word,matra,C
+नसीहत ,word,matra,C
+तालाब ,word,matra,C
+पार्वती ,word,matra,C
+अथवा ,word,matra,C
+अतिक्रमण ,word,matra,C
+अनंत ,word,matra,C
+झोपड़ी ,word,matra,C
+तलाश ,word,matra,C
+पाठक ,word,matra,C
+जनजाति ,word,matra,C
+जगतार ,word,matra,C
+हालात ,word,matra,C
+दौरान ,word,matra,C
+गरीबी ,word,matra,C
+विरोध ,word,matra,C
+समुदाय ,word,matra,C
+मौजूद ,word,matra,C
+नायक ,word,matra,C
+भाईचारा ,word,matra,C
+मासिक ,word,matra,C
+वार्षिक ,word,matra,C
+कार्यालय ,word,matra,C
+गौरतलब ,word,matra,C
+पसंद ,word,matra,C
+मिसाल ,word,matra,C
+अदालत ,word,matra,C
+सार्थक ,word,matra,C
+सुरक्षित ,word,matra,C
+बादल ,word,matra,C
+रुपए ,word,matra,C
+अंदेरे,non_word,matra,C
+अतिकरमण,non_word,matra,C
+अदलात,non_word,matra,C
+अनेख,non_word,matra,C
+अमिल,non_word,matra,C
+अवाव,non_word,matra,C
+अवैल,non_word,matra,C
+आंकेडा,non_word,matra,C
+आतकवाद,non_word,matra,C
+आदमि,non_word,matra,C
+आदमे,non_word,matra,C
+आपणी,non_word,matra,C
+आरकल,non_word,matra,C
+आर्थीक,non_word,matra,C
+आवार,non_word,matra,C
+इंसाण,non_word,matra,C
+उपमंदल,non_word,matra,C
+ऊंछाई,non_word,matra,C
+एकजुत,non_word,matra,C
+करोण,non_word,matra,C
+कारिल्य,non_word,matra,C
+कुपूर,non_word,matra,C
+खबकी,non_word,matra,C
+खलाफ,non_word,matra,C
+खुलेआंम,non_word,matra,C
+खोकरा,non_word,matra,C
+गरबी,non_word,matra,C
+गरीबि,non_word,matra,C
+गायेक,non_word,matra,C
+गायोक,non_word,matra,C
+गालती,non_word,matra,C
+गुलशान,non_word,matra,C
+चदार,non_word,matra,C
+चहला,non_word,matra,C
+चांचल,non_word,matra,C
+चातर,non_word,matra,C
+जीबन,non_word,matra,C
+डोबारा,non_word,matra,C
+तलास,non_word,matra,C
+तालब,non_word,matra,C
+अव्वल ,word,half,D
+रक्त ,word,half,D
+जलस्तर ,word,half,D
+ध्वस्त ,word,half,D
+अवश्य ,word,half,D
+व्यस्त ,word,half,D
+उपलक्ष्य ,word,half,D
+स्वस्थ ,word,half,D
+मशक्कत ,word,half,D
+नष्ट ,word,half,D
+समस्त ,word,half,D
+लक्ष्मण ,word,half,D
+समन्वयक ,word,half,D
+अक्सर ,word,half,D
+उत्पन्न ,word,half,D
+पत्थर ,word,half,D
+स्व ,word,half,D
+दफ्तर ,word,half,D
+स्वच्छ ,word,half,D
+महत्व ,word,half,D
+स्पष्ट ,word,half,D
+सख्त ,word,half,D
+जब्त ,word,half,D
+जन्म ,word,half,D
+वक्त ,word,half,D
+मरम्मत ,word,half,D
+खत्म ,word,half,D
+आवश्यक ,word,half,D
+अगस्त ,word,half,D
+व्यक्त ,word,half,D
+टक्कर ,word,half,D
+उच्च ,word,half,D
+स्थल ,word,half,D
+उपलब्ध ,word,half,D
+स्तर ,word,half,D
+जल्द ,word,half,D
+उक्त ,word,half,D
+सदस्य ,word,half,D
+अध्यक्ष ,word,half,D
+अन्य ,word,half,D
+अक्क्षण,non_word,half,D
+अक्शर,non_word,half,D
+अक्‍सार,non_word,half,D
+अच्ल,non_word,half,D
+अध्यक्षर,non_word,half,D
+अन्कय,non_word,half,D
+अन्क्षण,non_word,half,D
+अन्टय,non_word,half,D
+अन्द,non_word,half,D
+अरम्भ,non_word,half,D
+अल्क्षण,non_word,half,D
+अल्य,non_word,half,D
+अस्षर,non_word,half,D
+आत्मल,non_word,half,D
+आवश्क,non_word,half,D
+आश्कल,non_word,half,D
+आश्व्स,non_word,half,D
+इश्क्क,non_word,half,D
+उच्छ,non_word,half,D
+उज्झवल,non_word,half,D
+उत्थर,non_word,half,D
+उत्‍पन,non_word,half,D
+उपलक्श,non_word,half,D
+उपलब्द,non_word,half,D
+एकल्व,non_word,half,D
+कक्कद,non_word,half,D
+कच्छर,non_word,half,D
+कण्ड,non_word,half,D
+कब्म,non_word,half,D
+कश्ट,non_word,half,D
+कश्त,non_word,half,D
+क्मल,non_word,half,D
+क्यल,non_word,half,D
+क्लल,non_word,half,D
+खच्छर,non_word,half,D
+खट्टन,non_word,half,D
+ख्पर,non_word,half,D
+चन्‍ध,non_word,half,D
+च्वल,non_word,half,D
+जण्म,non_word,half,D
+जागृति ,word,matra,E
+हृदय ,word,matra,E
+प्रदेश ,word,matra,E
+परिजन ,word,matra,E
+मानदेय ,word,matra,E
+देवर ,word,matra,E
+चाहिए ,word,matra,E
+शीतल ,word,matra,E
+आतंकवाद ,word,matra,E
+अंधेरे ,word,matra,E
+बातचीत ,word,matra,E
+दैनिक ,word,matra,E
+मंजूर ,word,matra,E
+कंबल ,word,matra,E
+शरीर ,word,matra,E
+सवार ,word,matra,E
+शिकार ,word,matra,E
+शासन ,word,matra,E
+बाहर ,word,matra,E
+सबके ,word,matra,E
+वाहन ,word,matra,E
+प्रतिवर्ष ,word,matra,E
+खुलेआम ,word,matra,E
+नाराजगी ,word,matra,E
+हवाई ,word,matra,E
+मुहैया ,word,matra,E
+नगरी ,word,matra,E
+लिखित ,word,matra,E
+राहत ,word,matra,E
+निबंध ,word,matra,E
+कैलाश ,word,matra,E
+चालक ,word,matra,E
+हमने ,word,matra,E
+आंकड़ा ,word,matra,E
+निकेतन ,word,matra,E
+प्रमाण ,word,matra,E
+उपमंडल ,word,matra,E
+तुलसी ,word,matra,E
+महानगर ,word,matra,E
+एकजुट ,word,matra,E
+कहर ,word,plain,E
+वचन ,word,plain,E
+शरण ,word,plain,E
+मतलब ,word,plain,E
+भगदड़ ,word,plain,E
+महज ,word,plain,E
+कलश ,word,plain,E
+लटक ,word,plain,E
+अबतक ,word,plain,E
+नकद ,word,plain,E
+परचम ,word,plain,E
+अलग ,word,plain,E
+लथपथ ,word,plain,E
+अभय ,word,plain,E
+नगद ,word,plain,E
+गठन ,word,plain,E
+नजर ,word,plain,E
+अमर ,word,plain,E
+एकल ,word,plain,E
+मटर ,word,plain,E
+पहन ,word,plain,E
+कमल ,word,plain,E
+उदय ,word,plain,E
+कदर ,word,plain,E
+मदद ,word,plain,E
+असफल ,word,plain,E
+हरकत ,word,plain,E
+पहल ,word,plain,E
+दरअसल ,word,plain,E
+उमस ,word,plain,E
+बचत ,word,plain,E
+आरक्षण ,word,plain,E
+वतन ,word,plain,E
+बजकर ,word,plain,E
+आदर ,word,plain,E
+तरह ,word,plain,E
+फसल ,word,plain,E
+महल ,word,plain,E
+भड़क ,word,plain,E
+सदन ,word,plain,E
+चन्द ,word,half,E
+कक्कड़ ,word,half,E
+सत्तर ,word,half,E
+वत्स ,word,half,E
+अन्न ,word,half,E
+जख्म ,word,half,E
+स्मरण ,word,half,E
+शक्ल ,word,half,E
+उन्नत ,word,half,E
+कष्ट ,word,half,E
+रहस्यमय ,word,half,E
+तख्त ,word,half,E
+मक्खन ,word,half,E
+आनन्द ,word,half,E
+दस्त ,word,half,E
+उच्चतर ,word,half,E
+मध्यम ,word,half,E
+अस्त ,word,half,E
+उज्जवल ,word,half,E
+ध्वज ,word,half,E
+कत्ल ,word,half,E
+रत्न ,word,half,E
+छप्पर ,word,half,E
+शख्स ,word,half,E
+स्वर ,word,half,E
+तथ्य ,word,half,E
+तत्पर ,word,half,E
+खण्ड ,word,half,E
+मच्छर ,word,half,E
+सशस्त्र ,word,half,E
+रस्म ,word,half,E
+रद्द ,word,half,E
+वस्त्र ,word,half,E
+सशक्त ,word,half,E
+दस्तक ,word,half,E
+तत्व ,word,half,E
+जबरदस्त ,word,half,E
+जश्न ,word,half,E
+सम्भल ,word,half,E
+अध्ययन ,word,half,E
+महागर,non_word,matra,E
+महीज,non_word,matra,E
+मानदया,non_word,matra,E
+माशिक,non_word,matra,E
+माहिना,non_word,matra,E
+मिटन,non_word,matra,E
+मौझद,non_word,matra,E
+मौदूद,non_word,matra,E
+रणनीथी,non_word,matra,E
+लचीक,non_word,matra,E
+लिखट,non_word,matra,E
+लिखीत,non_word,matra,E
+लेकन,non_word,matra,E
+वसुन,non_word,matra,E
+वारषिक,non_word,matra,E
+विकक्ष,non_word,matra,E
+विचाह,non_word,matra,E
+विवदित,non_word,matra,E
+विवादेत,non_word,matra,E
+शकीर,non_word,matra,E
+शरही,non_word,matra,E
+शरारी,non_word,matra,E
+शहीर,non_word,matra,E
+शासान,non_word,matra,E
+शिकर,non_word,matra,E
+शिवार,non_word,matra,E
+शीटल,non_word,matra,E
+सबूल,non_word,matra,E
+समदाय,non_word,matra,E
+समर्धक,non_word,matra,E
+समूर,non_word,matra,E
+सरीव,non_word,matra,E
+सलहकार,non_word,matra,E
+सहायटा,non_word,matra,E
+साजाश,non_word,matra,E
+साड़िश,non_word,matra,E
+सैजिश,non_word,matra,E
+हरकरी,non_word,matra,E
+हवायि,non_word,matra,E
+हिरास,non_word,matra,E
+भरकन,non_word,plain,E
+मकलब,non_word,plain,E
+मकसल,non_word,plain,E
+मतलम,non_word,plain,E
+मरलब,non_word,plain,E
+महकल,non_word,plain,E
+रक्षन,non_word,plain,E
+रहक,non_word,plain,E
+रहनर,non_word,plain,E
+रहल,non_word,plain,E
+लक्षल,non_word,plain,E
+लगबग,non_word,plain,E
+लटकल,non_word,plain,E
+लठपठ,non_word,plain,E
+लथपद,non_word,plain,E
+लदपत,non_word,plain,E
+वजनल,non_word,plain,E
+सगहन,non_word,plain,E
+सघल,non_word,plain,E
+सजक,non_word,plain,E
+सजद,non_word,plain,E
+सजर,non_word,plain,E
+सडन,non_word,plain,E
+सतयक,non_word,plain,E
+सदरह,non_word,plain,E
+सफरल,non_word,plain,E
+सफलन,non_word,plain,E
+समझल,non_word,plain,E
+सरख,non_word,plain,E
+सरमत,non_word,plain,E
+सरलन,non_word,plain,E
+सरहर,non_word,plain,E
+सहट,non_word,plain,E
+सहनत,non_word,plain,E
+हटकन,non_word,plain,E
+हड़कर,non_word,plain,E
+हरकट,non_word,plain,E
+हरकतन,non_word,plain,E
+हरकल,non_word,plain,E
+हवण,non_word,plain,E
+मक्कन,non_word,half,E
+मख्‍खन,non_word,half,E
+मच्चर,non_word,half,E
+मन्डल,non_word,half,E
+मश्कत,non_word,half,E
+मस्कत,non_word,half,E
+रक्‍ठ,non_word,half,E
+रक्ष्क,non_word,half,E
+रत्क,non_word,half,E
+रहस्यम,non_word,half,E
+रहस्स्य,non_word,half,E
+लक्टण,non_word,half,E
+लक्श्य,non_word,half,E
+लक्ष्ण,non_word,half,E
+लक्ष्म,non_word,half,E
+व्यक्तन,non_word,half,E
+व्‍यस्‍ठ,non_word,half,E
+शब्ध,non_word,half,E
+श्क्कर,non_word,half,E
+श्क्स,non_word,half,E
+सज्जण,non_word,half,E
+सभ्यन,non_word,half,E
+समस्‍ठ,non_word,half,E
+समस्थक,non_word,half,E
+समस्स,non_word,half,E
+सम्भक,non_word,half,E
+सम्भर,non_word,half,E
+सम्भलर,non_word,half,E
+सशक्तन,non_word,half,E
+स्‍टन,non_word,half,E
+स्तार,non_word,half,E
+स्थन,non_word,half,E
+स्पट,non_word,half,E
+स्पस्ट,non_word,half,E
+स्मरन,non_word,half,E
+स्वच्च,non_word,half,E
+स्वत,non_word,half,E
+स्वस्ठ,non_word,half,E
+स्वस्त,non_word,half,E
+स्वार,non_word,half,E
