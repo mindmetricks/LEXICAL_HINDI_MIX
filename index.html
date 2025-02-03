@@ -243,15 +243,24 @@
     const blocks = {};
 
     // Organize words by block and subblock
+
+
     wordsData.forEach(row => {
-        if (!blocks[row.BLOCK]) {
-            blocks[row.BLOCK] = {};
-        }
-        if (!blocks[row.BLOCK][row.SUBBLOCK]) {
-            blocks[row.BLOCK][row.SUBBLOCK] = [];
-        }
-        blocks[row.BLOCK][row.SUBBLOCK].push(row);
-    });
+    console.log("Row Data:", row); // Debugging: check row values
+
+    if (!row.BLOCK || !row.SUBBLOCK || !row.WORD) {
+        console.error("Missing Data in Row:", row); // Log error
+        return; // Skip undefined rows
+    }
+
+    if (!blocks[row.BLOCK]) {
+        blocks[row.BLOCK] = {};
+    }
+    if (!blocks[row.BLOCK][row.SUBBLOCK]) {
+        blocks[row.BLOCK][row.SUBBLOCK] = [];
+    }
+    blocks[row.BLOCK][row.SUBBLOCK].push(row);
+});
 
     let usedWords = new Set();
 
