@@ -244,30 +244,45 @@
 
   let usedWords = new Set();
 
-  // Iterate over each block
-  Object.keys(blocks).forEach(block => {
-    // Check if instructions for the block exist
-    if (blockInstructions[block]) {
-      const block_instruction = {
-        type: jsPsychInstructions,
-        pages: blockInstructions[block].pages,
-        show_clickable_nav: true
-      };
-      timeline.push(block_instruction);
-    } else {
-      console.warn(`No instructions found for block: ${block}`);
-    }
 
-    // Shuffle words within the block
+    // Define the number of words needed for each block
+const blockWordCounts = {
+  'A': 100,
+  'B': 100,
+  'C': 200,
+  'D': 100,
+  'E': 200
+};
+
+// Iterate over each block
+Object.keys(blocks).forEach(block => {
+  // Check if instructions for the block exist
+  if (blockInstructions[block]) {
+    const block_instruction = {
+      type: jsPsychInstructions,
+      pages: blockInstructions[block].pages,
+      show_clickable_nav: true
+    };
+    timeline.push(block_instruction);
+  } else {
+    console.warn(`No instructions found for block: ${block}`);
+  }
+
+  // Get the number of words required for this block
+  const requiredWords = blockWordCounts[block];
+
   // Filter out words that have already been used across blocks
   const filteredWords = blocks[block].filter(word => !usedWords.has(word.WORD));
   
   // Shuffle the filtered words
   const shuffledWords = jsPsych.randomization.shuffle(filteredWords);
   
-  // Add the words from this block to the set of used words
-  shuffledWords.forEach(word => usedWords.add(word.WORD));
+  // Select only the required number of words for this block
+  const selectedWords = shuffledWords.slice(0, requiredWords);
 
+  // Add the words from this block to the set of used words
+  selectedWords.forEach(word => usedWords.add(word.WORD));
+    
 
     // Fixation cross trial
     const fixation_cross = {
@@ -278,9 +293,9 @@
       };
     timeline.push(fixation_cross);
 
-    shuffledWords.forEach((word, index) => {
+    selectedWords.forEach((word, index) => {
       let trial_type = 'switch';
-      if (index > 0 && word.TYPE === shuffledWords[index - 1].TYPE) {
+      if (index > 0 && word.TYPE === selectedWords[index - 1].TYPE) {
         trial_type = 'non-switch';
       }
 
