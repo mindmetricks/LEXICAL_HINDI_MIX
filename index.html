@@ -247,7 +247,7 @@
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '<p>+</p>',
         choices: "NO_KEYS",
-        trial_duration: 900  // 1 second fixation cross
+        trial_duration: 9  // 1 second fixation cross
       };
     timeline.push(fixation_cross);
 
@@ -262,7 +262,7 @@
         type: jsPsychHtmlKeyboardResponse,
         stimulus: `<p>${word.WORD}</p>`,
         choices: ['f', 'j'],
-        trial_duration: 1350,    // 1.5 seconds stimulus duration
+        trial_duration: 13.5,    // 1.5 seconds stimulus duration
         response_ends_trial: false, // Do not end the trial immediately after response
         data: {
           word: word.WORD,
@@ -293,7 +293,7 @@
         type: jsPsychHtmlKeyboardResponse,
         stimulus: '<p>+</p>',
         choices: "NO_KEYS",
-        trial_duration: 900  // 1 second fixation cross
+        trial_duration: 9  // 1 second fixation cross
       };
       timeline.push(fixation_cross);
 
@@ -305,7 +305,7 @@
     type: jsPsychHtmlKeyboardResponse,
     stimulus: '<p>Take a  break! </p>',
     choices: "NO_KEYS", // Updated to string "NO_KEYS"
-    trial_duration: 10000 // 10000 ms = 10 seconds
+    trial_duration: 10 // 10000 ms = 10 seconds
     };
     timeline.push(wait_ten_seconds);
 
