@@ -223,67 +223,88 @@
        
         };
 
+// Load and parse both CSV files
+let wordsData1 = [];
+let wordsData2 = [];
+
+function loadCSVFiles() {
     Papa.parse("FINAL_FINAL.csv", {
-    download: true,
-    header: true,
-    complete: function(results) {
-        const wordsData = results.data;
-        startExperiment(wordsData);
-    }
-    });
-
-    function startExperiment(wordsData) {
-    // Organize words by block
-    const blocks = {};
-    wordsData.forEach(row => {
-        if (!blocks[row.BLOCK]) {
-        blocks[row.BLOCK] = [];
+        download: true,
+        header: true,
+        complete: function(results) {
+            wordsData1 = results.data;
+            checkAndStartExperiment();
         }
-        blocks[row.BLOCK].push(row); // Group words by their BLOCK value
     });
 
-  let usedWords = new Set();
+    Papa.parse("SECOND_FILE.csv", {  // Replace with the actual second file name
+        download: true,
+        header: true,
+        complete: function(results) {
+            wordsData2 = results.data;
+            checkAndStartExperiment();
+        }
+    });
+}
 
+// Ensure both files are loaded before starting
+function checkAndStartExperiment() {
+    if (wordsData1.length > 0 && wordsData2.length > 0) {
+        startExperiment();
+    }
+}
 
-    // Define the number of words needed for each block
-const blockWordCounts = {
-  'A': 100,
-  'B': 100,
-  'C': 200,
-  'D': 100,
-  'E': 200
-};
+function startExperiment() {
+    const blocks = {};
 
-// Iterate over each block
-Object.keys(blocks).forEach(block => {
-  // Check if instructions for the block exist
-  if (blockInstructions[block]) {
-    const block_instruction = {
-      type: jsPsychInstructions,
-      pages: blockInstructions[block].pages,
-      show_clickable_nav: true
+    // Organize words from both files by block
+    wordsData1.forEach(row => {
+        if (!blocks[row.BLOCK]) blocks[row.BLOCK] = { file1: [], file2: [] };
+        blocks[row.BLOCK].file1.push(row);
+    });
+
+    wordsData2.forEach(row => {
+        if (!blocks[row.BLOCK]) blocks[row.BLOCK] = { file1: [], file2: [] };
+        blocks[row.BLOCK].file2.push(row);
+    });
+
+    let usedWords = new Set();
+
+    // Number of words needed from the **second file** in addition to the first file
+    const secondFileWordCounts = {
+        'A': 50,
+        'B': 50,
+        'C': 100,
+        'D': 50,
+        'E': 100
     };
-    timeline.push(block_instruction);
-  } else {
-    console.warn(`No instructions found for block: ${block}`);
-  }
 
-  // Get the number of words required for this block
-  const requiredWords = blockWordCounts[block];
+    // Iterate over each block
+    Object.keys(blocks).forEach(block => {
+        if (blockInstructions[block]) {
+            timeline.push({
+                type: jsPsychInstructions,
+                pages: blockInstructions[block].pages,
+                show_clickable_nav: true
+            });
+        }
 
-  // Filter out words that have already been used across blocks
-  const filteredWords = blocks[block].filter(word => !usedWords.has(word.WORD));
-  
-  // Shuffle the filtered words
-  const shuffledWords = jsPsych.randomization.shuffle(filteredWords);
-  
-  // Select only the required number of words for this block
-  const selectedWords = shuffledWords.slice(0, requiredWords);
+        // Words from the first file (predefined count)
+        const wordsFromFirstFile = blocks[block].file1.filter(word => !usedWords.has(word.WORD));
 
-  // Add the words from this block to the set of used words
-  selectedWords.forEach(word => usedWords.add(word.WORD));
+        // Words from the second file (fixed count)
+        const wordsFromSecondFile = jsPsych.randomization.shuffle(
+            blocks[block].file2.filter(word => !usedWords.has(word.WORD))
+        ).slice(0, secondFileWordCounts[block]);
+
+        // Merge words from both files and shuffle
+        const finalWords = jsPsych.randomization.shuffle([...wordsFromFirstFile, ...wordsFromSecondFile]);
+
+        // Mark selected words as used
+        finalWords.forEach(word => usedWords.add(word.WORD));
+
+      
     
-
     // Fixation cross trial
     const fixation_cross = {
         type: jsPsychHtmlKeyboardResponse,
@@ -293,9 +314,9 @@ Object.keys(blocks).forEach(block => {
       };
     timeline.push(fixation_cross);
 
-    selectedWords.forEach((word, index) => {
+    finalWords.forEach((word, index) => {
       let trial_type = 'switch';
-      if (index > 0 && word.TYPE === selectedWords[index - 1].TYPE) {
+      if (index > 0 && word.TYPE === finalWords[index - 1].TYPE) {
         trial_type = 'non-switch';
       }
 
